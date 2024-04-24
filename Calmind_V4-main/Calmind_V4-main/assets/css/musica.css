@@ -1,0 +1,141 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 100px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: museo;
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  line-height: 1.6;
+  background: linear-gradient(120deg, rgb(6, 6, 90), #2f3faa, hwb(232 47% 14%));
+}
+
+header {
+  background-color: #ffffff;
+  color: #4006f1;
+  padding: 25px 40px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3c01ff;
+}
+
+main {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.voltar a {
+  background-color: #2f3faa;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.voltar:hover {
+  background-color: #0000cd;
+  transform: scale(0.9);
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.nav-link:hover {
+  background-color: #1b1dbc;
+}
+
+h1 {
+  color: white;
+  position: absolute;
+  margin-top: 100px;
+  left: 5%;
+}
+
+.introducao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: -41%;
+  margin-top: 160px;
+}
+
+.introducao p {
+  text-align: justify;
+  width: 35%;
+  color: blue;
+  font-family: museo;
+  font-family: "MuseoModerno", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  box-shadow: 0px 3px 10px #464646;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+
+.img1 img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  margin-top: 50px;
+  left: 60%;
+}
+
+@media screen and (min-width: 1920px) {
+  .introducao p {
+    font-size: 30px;
+    
+  }
+
+  .introducao {
+    top: 13%;
+  }
+  
+
+  h1 {
+   font-size: 40px;
+  }
+
+  .img1 img {
+   transform: scale(1.3);
+   top: 20%;
+  }
+}
